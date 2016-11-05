@@ -24,7 +24,7 @@ body {
 }
 
 ul.nav a:hover {
-  border-bottom: solid orange;
+  border-bottom: solid #f0ad4e;
   padding-bottom: 7px;
 }
 
@@ -56,7 +56,7 @@ h2 {
   font-size: 25px;
 }
 
-.wrapper {
+#wrapper {
   text-align: center;
 }
 
@@ -90,4 +90,24 @@ h2 {
 
 .btn.sharp {
   border-radius: 0;
+}
+
+.btn.outline {
+	background: none;
+	padding: 6px 18px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #f0ad4e;
+	color: #f0ad4e;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #e28809;
+	border-color: #e28809;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
 }
